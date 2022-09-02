@@ -1,0 +1,101 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background:url('img/bg.jpg');
+    border-radius: 100px;
+
+}
+.left{
+    display: inline-block;
+      /* border: 2px solid red; */
+    
+      position: absolute;
+      left: 40px;
+      top: 20px;
+} 
+.mid{
+    display: block;
+    width: 45%;
+    margin: 29px auto;
+    /* border: 2px solid green; */
+}
+
+
+.left img{
+    width: 96px;
+    border-radius: 40px;
+    border-bottom: 30px;
+}
+.left div{
+    text-align: center;
+}
+.right{
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    right: 34px;
+    top: 43px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 18px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration:underline;
+    color: grey;
+}
+.container{
+    /* border: 2px solid green; */
+    margin: 106px 83px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 100px;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(36, 29, 29);
+}
+.formgrp input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 444px;
+    padding: 6px;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 100px;
+    margin: 13px auto;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    margin: 20px auto;
+    width: 93%;
+    
+
+    text-align: center;
+    
+}
